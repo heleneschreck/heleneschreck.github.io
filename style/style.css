@@ -39,6 +39,9 @@ body {
   background: black;
   color: white;
 }
+.halloween {
+  width: 1%;
+}
 a {
   color: #4a8db7;
   text-decoration: none;
@@ -120,7 +123,7 @@ p {
 }
 .navbar-brand {
   color: white;
-  padding-left: 35%;
+  padding-left: 25%;
 }
 .nav-link {
   color: white;
@@ -259,6 +262,7 @@ h1 {
 }
 
 @media all and (max-width: 1024px) {
+
   .picture {
     display: none;
   }
