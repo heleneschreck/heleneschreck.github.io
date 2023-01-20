@@ -20,6 +20,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.nav-link {
+  font-size: 27px;
+}
+
 .wrapper {
   perspective: 100px;
 }
@@ -114,6 +118,42 @@ h3 {
 }
 p {
   font-size: 16px;
+}
+.affiches {
+  width: 32%;
+  background-color: #00000012;
+  border-radius: 30px;
+  padding-bottom: 1%;
+}
+.communication {
+  width: 366px;
+  margin: auto !important;
+  margin-top: 9% !important;
+  margin-left: 11% !important;
+}
+
+#voeux {
+  margin-left: 15%;
+  margin-bottom: -6%;
+  margin-top: 3%;
+  transform: rotate(-15deg);
+}
+
+#invitation {
+  margin-left: 56%;
+  margin-top: -126px;
+  transform: rotate(18deg);
+}
+#halloween {
+  margin-left: 14%;
+  margin-top: -198px;
+  transform: rotate(-13deg);
+}
+#carnaval {
+  margin-left: 52%;
+  margin-top: -263px;
+  transform: rotate(20deg);
+  margin-bottom: 9%;
 }
 
 .logo {
@@ -262,6 +302,50 @@ h1 {
 }
 
 @media all and (max-width: 1200px) {
+  .affiches {
+    width: auto !important;
+    background-color: #00000012;
+    background-color: #eaebed !important;
+    margin-left: -18% !important;
+  }
+  #voeux {
+    margin-left: 27% !important;
+    margin-bottom: 0% !important;
+    margin-top: 0% !important;
+    transform: rotate(0deg) !important;
+    margin-bottom: -6%;
+    margin-top: 3%;
+    transform: rotate(-15deg);
+  }
+  #invitation {
+    margin-left: 27% !important;
+    margin-top: 0% !important;
+    transform: rotate(0deg) !important;
+  }
+  #halloween {
+    margin-left: 27% !important;
+    margin-top: 0% !important;
+    transform: rotate(0deg) !important;
+  }
+  #carnaval {
+    margin-left: 27% !important;
+    margin-top: 0% !important;
+    transform: rotate(0deg) !important;
+    margin-bottom: 9%;
+  }
+  h3 {
+    font-size: 66%;
+    margin-left: -38% !important;
+}
+.d-block {
+  width: 68% !important;
+}
+  .communication {
+    width: 85% !important;
+    margin: auto !important;
+    margin-top: 9% !important;
+    margin-left: -7% !important;
+  }
   .picture {
     display: none;
   }
@@ -276,7 +360,7 @@ h1 {
     margin: auto;
     margin-bottom: 7% !important;
   }
-  .d-none.d-md-block{
+  .d-none.d-md-block {
     display: block !important;
   }
 }
