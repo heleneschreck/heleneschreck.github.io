@@ -231,17 +231,20 @@ p {
 #vue {
   margin-left: 16%;
 }
+#react {
+  margin-left: 25%;
+}
 #laravel {
-  margin-right: 25%;
+  margin-right: 15%;
 }
 #figma {
-  margin-left: 15%;
+  margin-left: 20%;
 }
 #gimp {
-  margin-right: 20%;
+  margin-right: 30%;
 }
 #illustrator {
-  margin-left: 30%;
+  margin-left: 20%;
 }
 .d-none.d-md-block {
   padding-left: 5%;
