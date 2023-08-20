@@ -214,7 +214,7 @@ p {
   opacity: 1;
   transform: scaleX(1);
 }
-
+&
 .moi {
   display: flex;
   justify-content: space-between;
@@ -229,7 +229,7 @@ p {
   font-family: p;
 }
 #vue {
-  margin-left: 16%;
+  margin-left: -35%;
 }
 #react {
   margin-left: 25%;
@@ -244,7 +244,7 @@ p {
   margin-right: 30%;
 }
 #illustrator {
-  margin-left: 20%;
+  margin-left: 30%;
 }
 .d-none.d-md-block {
   padding-left: 5%;
